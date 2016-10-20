@@ -1,0 +1,2 @@
+# Python
+daily python scripts
