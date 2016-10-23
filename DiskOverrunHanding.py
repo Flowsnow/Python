@@ -4,7 +4,7 @@
 Created on 2016年10月22日上午10:26:18
 @author: Flowsnow
 @file: /weblogic/user_projects/domains/scripts/diskOverrunHanding.py
-@function: 配合定时任务使用，每一个小时监控一次磁盘，磁盘空间超过80%时自动打包最近最久未使用的日志
+@function: 配合定时任务使用，每一个小时监控一次磁盘，磁盘空间超过80%时按照权重自动备份各个节点下的最近最久未使用的日志
 '''
 #----------------------------import第三方模块----------------------------------
 import os
